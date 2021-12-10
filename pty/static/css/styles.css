@@ -1,0 +1,65 @@
+.admin-panel{
+    border: 1px solid #999;
+    border-radius: 2px;
+    position: fixed;
+    right: 50px;
+    bottom: 30px;
+    opacity: 0.3;
+    padding: 15px;
+
+}
+
+.admin-panel a{
+    display: block;
+    margin: 5px 0;
+}
+
+.admin-panel:hover{
+    opacity: 1;
+}
+
+a.edit, a.delete {
+    display: none;
+}
+
+a:hover {
+ cursor:pointer;
+}
+
+.background_dark{
+    background-color: black;
+}
+
+.verticalLines {
+  border-right: thick solid darkgray;
+    border-right-width:2px ;
+    border-left: thick solid darkgray;
+    border-left-width:2px ;
+}
+.lightbackgroud{
+    background-color: lightgray;
+}
+
+.thickText {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: Serif;
+
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  width: auto;
+  height: auto;
+  bottom: 5%;
+  right: 5%;
+
+}
+
+label{
+    font-size: 18px;
+}
+
